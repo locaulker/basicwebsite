@@ -16,6 +16,7 @@
 
     <div class="row">
       <div class="col-sm-8 col-lg-8">
+        @include('inc.error-messages')
         @yield('content')
       </div>
       <div class="col-sm-4 col-lg-4">
