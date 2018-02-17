@@ -2,8 +2,8 @@
 
 @section('content')
   <h1>Contact</h1>
-  {!! Form::open(['url' => 'contact/submit']) !!}
 
+  {!! Form::open(['url' => 'contact/submit']) !!}
     <div class="form-group">
       {{ form::label('name', 'Name:') }}
       {{ form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Enter Name']) }}
@@ -18,7 +18,7 @@
     </div>
     <div>
       {{ form::submit('SUBMIT', ['class' => 'btn btn-primary']) }}
-    </div>
-    
+    </div>  
   {!! Form::close() !!}
+  
 @endsection

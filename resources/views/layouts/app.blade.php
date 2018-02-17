@@ -25,7 +25,6 @@
     </div>
   </div>
 
-
   <footer id="footer" class="text-center">
     <p>Copyright 2018 &copy; &mdash; BasicWebsite</p>
   </footer>

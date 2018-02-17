@@ -3,6 +3,8 @@
     "endforeach",
     "endsection",
     "gmail",
-    "laravel"
+    "laravel",
+    "mdash",
+    "timestamps"
   ]
 }
